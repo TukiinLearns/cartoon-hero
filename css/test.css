@@ -1,0 +1,29 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+h1{
+font-size: 30px;
+color: salmon;
+}
+
+h2{
+color: red;
+}
+/* Class is to point out what you want */
+/* Class="class1 class2" */
+.big {
+font-size: 60px;
+}
+
+.uppercase{
+text-transform: uppercase;
+}
+
+.big.uppercase{
+color: navy;
+}
+/* only the span element inside the h1 element will be affected */
+h1 span{
+color: violet;
+}
